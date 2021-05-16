@@ -12,4 +12,5 @@ Now, this website is immature, but I will improve the UI.
 ---
 ```
 see you
+good bye~
 ```
