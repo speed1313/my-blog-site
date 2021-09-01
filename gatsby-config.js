@@ -6,9 +6,9 @@ module.exports = {
       summary: `who majors in computer science in Japan.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://spchan.netlify.app/`,
     social: {
-      twitter: `speedosaru`,
+      twitter: `strayer_13`,
     },
   },
   plugins: [
@@ -51,12 +51,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+       resolve: `gatsby-plugin-google-analytics`,
+       options: {
+         trackingId: `G-MQB04MPT9N`,
+       },
+     },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
